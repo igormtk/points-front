@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from 'next/image'
 
-type ImageProps = {
+interface ImageProps {
   src: StaticImageData
   width: number
   height: number
